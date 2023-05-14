@@ -1,0 +1,5 @@
+font-family: 'Poppins', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Shrikhand', cursive;
+font-family: 'Titan One', cursive;
+

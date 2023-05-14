@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding:0;
+    border:0;
+}
+body{
+    background-color:rgb(182, 0, 0);
+    background-image: url("dot.png");
+    background-size: 20px;
+    overflow: hidden;
+}
+#title{
+    font-family: 'Shrikhand', cursive;
+    color:greenyellow;
+    text-shadow: 5px 5px green;
+    
+    text-align:center;
+    font-size: 50px;
+    
+}
+#speak{
+    height: 150px;
+    width: 150px;
+    background-color: greenyellow;
+    color: green;
+    border-radius: 100%;
+    margin-top: -50px;
+    box-shadow: 0px 0px 0px 10px green;
+    animation:abd infinite ease-in-out;
+    animation-play-state:paused;
+    animation-duration: 2000ms;
+    line-height: 10px;
+    z-index: -1000;
+    font-family: 'Titan One', cursive;
+    font-size: 30px;
+    margin-top: 600px;
+   
+
+    
+}
+
+canvas
+{
+	
+	background: white;
+	border-radius: 20px;
+    position: absolute;
+}
+#speak:hover{
+    background-color: green;
+    color: greenyellow;
+    
+}
+
+#speak p{
+    margin-top: -20px;
+}
+#sub{
+    font-family: poppins;
+    color:white;
+    text-shadow: 0 0 rgba(255, 255, 255, 0);
+    text-align:center;
+    font-size: 10px;
+    font-weight: 600;
+    font-style: normal;
+    margin-top:-10px;
+    padding-bottom: 5px;
+}
+div{
+    box-shadow: 0px 10px 20px 0.3px rgb(102, 0, 0);
+    background-color: rgb(139, 0, 0) ;
+}
+
+
+@keyframes abd{
+    0%{
+        box-shadow: 0px 0px 0px 5px green;   
+    }
+    10%{
+        box-shadow: 0px 0px 0px 20px green;
+    }
+    20%{
+        box-shadow: 0px 0px 0px 10px green; 
+    }
+    30%{
+        box-shadow: 0px 0px 0px 5px green; 
+    }
+    40%{
+        box-shadow: 0px 0px 0px 20px green; 
+    }
+    50%{
+        box-shadow: 0px 0px 0px 5px green; 
+    }
+    60%{
+        box-shadow: 0px 0px 0px 20px green; 
+    }
+    70%{
+        box-shadow: 0px 0px 0px 5px green; 
+    }
+    80%{
+        box-shadow: 0px 0px 0px 20px green; 
+    }
+    90%{
+        box-shadow: 0px 0px 0px 10px green; 
+    }
+    100%{
+        box-shadow: 0px 0px 0px 5px green;
+    }
+}
